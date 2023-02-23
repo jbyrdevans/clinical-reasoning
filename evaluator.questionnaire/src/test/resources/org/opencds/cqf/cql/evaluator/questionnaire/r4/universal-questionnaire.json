@@ -52,20 +52,313 @@
       "text": "Patient Information",
       "type": "group",
       "item": [
-
+        {
+          "text": "First name",
+          "prefix": "First name",
+          "type": "string",
+          "required": false,
+          "linkId": "1.1"
+        },
+        {
+          "text": "Initial",
+          "prefix": "Initial",
+          "type": "string",
+          "required": false,
+          "linkId": "1.2"
+        },
+        {
+          "text": "Last name",
+          "prefix": "Last name",
+          "type": "string",
+          "required": false,
+          "linkId": "1.3"
+        },
+        {
+          "text": "Date of Birth",
+          "prefix": "Date of Birth",
+          "type": "date",
+          "required": false,
+          "linkId": "1.4"
+        },
+        {
+          "text": "Gender",
+          "prefix": "Gender",
+          "type": "string",
+          "required": false,
+          "linkId": "1.5"
+        },
+        {
+          "text": "Primary Health Plan",
+          "prefix": "Primary Health Plan",
+          "type": "string",
+          "required": false,
+          "linkId": "1.6"
+        },
+        {
+          "text": "Member Name",
+          "prefix": "Member Name",
+          "type": "string",
+          "required": false,
+          "linkId": "1.7"
+        },
+        {
+          "text": "Member ID",
+          "prefix": "Member ID",
+          "type": "string",
+          "required": false,
+          "linkId": "1.8"
+        },
+        {
+          "text": "Secondary Health Plan",
+          "prefix": "Secondary Health Plan",
+          "type": "string",
+          "required": false,
+          "linkId": "1.9"
+        },
+        {
+          "text": "Member Name",
+          "prefix": "Member Name",
+          "type": "string",
+          "required": false,
+          "linkId": "1.10"
+        },
+        {
+          "text": "Member ID",
+          "prefix": "Member ID",
+          "type": "string",
+          "required": false,
+          "linkId": "1.11"
+        }
       ]
     },
     {
       "linkId": "2",
       "text": "Ordering Provider",
       "type": "group",
-      "item": []
+      "item": [
+        {
+          "text": "Ordering Physician",
+          "prefix": "Ordering Physician",
+          "type": "display",
+          "linkId": "2.1"
+        },
+        {
+          "text": "Provider Name",
+          "prefix": "Provider Name",
+          "type": "string",
+          "required": false,
+          "linkId": "2.2"
+        },
+        {
+          "text": "NPI",
+          "prefix": "NPI",
+          "type": "integer",
+          "required": false,
+          "linkId": "2.3"
+        },
+        {
+          "text": "Specialty",
+          "prefix": "Specialty",
+          "type": "string",
+          "required": false,
+          "linkId": "2.4"
+        },
+        {
+          "text": "Practice Location/Place of Service",
+          "prefix": "Specialty",
+          "type": "string",
+          "required": false,
+          "linkId": "2.5"
+        },
+        {
+          "text": "Practice NPI",
+          "prefix": "Practice NPI",
+          "type": "integer",
+          "required": false,
+          "linkId": "2.6"
+        },
+        {
+          "text": "TIN/EIN",
+          "prefix": "TIN/EIN",
+          "type": "integer",
+          "required": false,
+          "linkId": "2.7"
+        },
+        {
+          "text": "Address",
+          "prefix": "Address",
+          "type": "string",
+          "required": false,
+          "linkId": "2.8"
+        },
+        {
+          "text": "Phone",
+          "prefix": "Phone",
+          "type": "string",
+          "required": false,
+          "linkId": "2.9"
+        },
+        {
+          "text": "Fax",
+          "prefix": "Fax",
+          "type": "string",
+          "required": false,
+          "linkId": "2.10"
+        },
+        {
+          "text": "City",
+          "prefix": "City",
+          "type": "string",
+          "required": false,
+          "linkId": "2.11"
+        },
+        {
+          "text": "State",
+          "prefix": "State",
+          "type": "string",
+          "required": false,
+          "linkId": "2.12"
+        },
+        {
+          "text": "Zip",
+          "prefix": "Zip",
+          "type": "string",
+          "required": false,
+          "linkId": "2.13"
+        },
+        {
+          "text": "Contact Name",
+          "prefix": "Contact Name",
+          "type": "string",
+          "required": false,
+          "linkId": "2.14"
+        },
+        {
+          "text": "Contact Number",
+          "prefix": "Contact Number",
+          "type": "string",
+          "required": false,
+          "linkId": "2.15"
+        },
+        {
+          "text": "Contact Email",
+          "prefix": "Contact Email",
+          "type": "string",
+          "required": false,
+          "linkId": "2.16"
+        },
+        {
+          "text": "Medicaid ID",
+          "prefix": "Medicaid ID",
+          "type": "string",
+          "required": false,
+          "linkId": "2.17"
+        },
+        {
+          "text": "Medicare ID (MPN)",
+          "prefix": "Medicare ID (MPN)",
+          "type": "string",
+          "required": false,
+          "linkId": "2.18"
+        }
+      ]
     },
     {
       "linkId": "3",
       "text": "Servicing Provider",
       "type": "group",
-      "item": []
+      "item": [
+        {
+          "text": "Servicing Physician",
+          "prefix": "Servicing Physician",
+          "type": "display",
+          "linkId": "3.1"
+        },
+        {
+          "text": "First Name",
+          "prefix": "First Name",
+          "type": "string",
+          "required": false,
+          "linkId": "3.2"
+        },
+        {
+          "text": "Last Name",
+          "prefix": "Last Name",
+          "type": "string",
+          "required": false,
+          "linkId": "3.3"
+        },
+        {
+          "text": "NPI",
+          "prefix": "NPI",
+          "type": "integer",
+          "required": false,
+          "linkId": "3.4"
+        },
+        {
+          "text": "Specialty",
+          "prefix": "Specialty",
+          "type": "string",
+          "required": false,
+          "linkId": "3.5"
+        },
+        {
+          "text": "Servicing Practice Name",
+          "prefix": "Servicing Practice Name",
+          "type": "string",
+          "required": false,
+          "linkId": "3.6"
+        },
+        {
+          "text": "Practice NPI",
+          "prefix": "Practice NPI",
+          "type": "integer",
+          "required": false,
+          "linkId": "3.7"
+        },
+        {
+          "text": "Address",
+          "prefix": "Address",
+          "type": "string",
+          "required": false,
+          "linkId": "3.8"
+        },
+        {
+          "text": "Phone",
+          "prefix": "Phone",
+          "type": "string",
+          "required": false,
+          "linkId": "3.9"
+        },
+        {
+          "text": "Fax",
+          "prefix": "Fax",
+          "type": "string",
+          "required": false,
+          "linkId": "3.10"
+        },
+        {
+          "text": "City",
+          "prefix": "City",
+          "type": "string",
+          "required": false,
+          "linkId": "3.11"
+        },
+        {
+          "text": "State",
+          "prefix": "State",
+          "type": "string",
+          "required": false,
+          "linkId": "3.12"
+        },
+        {
+          "text": "Zip",
+          "prefix": "Zip",
+          "type": "string",
+          "required": false,
+          "linkId": "3.13"
+        }
+      ]
     }
   ]
 }
