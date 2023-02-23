@@ -1,0 +1,71 @@
+{
+  "resourceType": "Questionnaire",
+  "id": "UniversalQuestionnaire",
+  "meta": {
+    "profile": [
+      "http://hl7.org/fhir/us/davinci-dtr/StructureDefinition/dtr-questionnaire-r4"
+    ]
+  },
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/cqf-library",
+      "valueCanonical": "http://hl7.org/fhir/Library/UniversalQuestionnaire"
+    }
+  ],
+  "url": "http://hl7.com/fhir/Questionnaire/UniversalQuestionnaire",
+  "name": "UniversalQuestionnaire",
+  "title": "Universal Questionnaire for Prior Authorization Request",
+  "status": "active",
+  "subjectType": [
+    "Patient",
+    "Organization",
+    "Claim"
+  ],
+  "date": "2023-02-23T00:00:00+00:00",
+  "contact": [
+    {
+      "name": "Smile Digital Health"
+    }
+  ],
+  "description": "A base template containing questions that are expected to be present in every Prior Auth Questionnaire.",
+  "jurisdiction": [
+    {
+      "coding": [
+        {
+          "system": "urn:iso:std:iso:3166",
+          "code": "CA"
+        }
+      ]
+    },
+    {
+      "coding": [
+        {
+          "system": "urn:iso:std:iso:3166",
+          "code": "US"
+        }
+      ]
+    }
+  ],
+  "item": [
+    {
+      "linkId": "1",
+      "text": "Patient Information",
+      "type": "group",
+      "item": [
+
+      ]
+    },
+    {
+      "linkId": "2",
+      "text": "Ordering Provider",
+      "type": "group",
+      "item": []
+    },
+    {
+      "linkId": "3",
+      "text": "Servicing Provider",
+      "type": "group",
+      "item": []
+    }
+  ]
+}
